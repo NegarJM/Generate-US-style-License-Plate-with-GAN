@@ -55,6 +55,8 @@ python3 pix2pixModel/datasets/combine_A_and_B.py
 This script will take the outline and original images as input and create a combined image suitable for training the Pix2Pix model.
 
 
+### References
+
 [1] Mingbo Cui, "License Plate Generation", https://github.com/MinboCui/license-plate-generation
 
 [2] Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, and Alexei A. Efros. "Image-to-Image Translation with Conditional Adversarial Networks." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2017.
