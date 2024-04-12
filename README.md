@@ -61,6 +61,7 @@ To generate synthetic license plate images, you can use the provided `genPlate.p
 ```
 python3 GenerateSynthLicensePlate.py
 ```
+This script will generate synthetic license plate images with high quality. Make sure to customize the script according to your requirements before running it.
 
 ### References
 
