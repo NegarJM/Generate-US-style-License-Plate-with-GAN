@@ -1,4 +1,4 @@
-# Generate-US-style-License-Plate-with-GAN
+![Test_fig](https://github.com/NegarJM/Generate-US-style-License-Plate-with-GAN/assets/97193844/77074108-072b-41a8-997a-f4a043c66c7d)# Generate-US-style-License-Plate-with-GAN
 
 ## Abstract
 
@@ -28,13 +28,14 @@ In summary, the Pix2Pix model excels in transforming input images into desired o
 
 We utilized our real license plate images consisting of 500 images of license plates for training, validating, and testing our generative model. As the pix2pix model requires paired images for training, we conducted a preprocessing step. Specifically, We used an outline extractor, primarily relying on the Canny function, a built-in feature in the OpenCV library, to detect the edges in the license plate images. The Canny algorithm employs gradient operations and thresholding to identify edges, resulting in a binary image where edges appear as white lines against a black background. We integrated these outlines with the original images to create pairs that were subsequently employed in the training of our pix2pix model. This step facilitated the learning process for the generative model, allowing it to understand the relationship between the license plate image and its corresponding outline.
 
-![Training dataset preparation block](Test_fig.png)
+![Training dataset preparation block](https://github.com/NegarJM/Generate-US-style-License-Plate-with-GAN/assets/97193844/5932299d-ce4d-4af8-8c5f-257b0ed037e1)
+
 
 ### Testing Dataset Generation
-
 To produce our authentic-looking counterfeit license plates, we first needed to create a dataset of outline images representing fake license plates. To accomplish this, we wrote a code that randomly generated synthetic license plates in the style and font typical of US license plates, focusing on one of the primary styles that consist of six characters (three letters and three digits). Our code generated license plates with blue backgrounds, selecting three random letters and three random digits. We then processed these plates through our outline detector to extract the outlines. Leveraging our trained pix2pix model, we used these extracted outlines from the synthetic license plates to generate new, realistically fake plates. This procedure involved testing the model by inputting the synthetic outlines, resulting in the creation of fake plates with backgrounds similar to those in the initial dataset used for model training.
 
-![Testing dataset generation block](Train_fig.png)
+![Testing dataset generation block](https://github.com/NegarJM/Generate-US-style-License-Plate-with-GAN/assets/97193844/feae7f93-58e5-4d3e-8f02-f3b8777f5b0e)
+
 
 [1] Mingbo Cui, "License Plate Generation", https://github.com/MinboCui/license-plate-generation
 
