@@ -1,4 +1,4 @@
-![Test_fig](https://github.com/NegarJM/Generate-US-style-License-Plate-with-GAN/assets/97193844/77074108-072b-41a8-997a-f4a043c66c7d)# Generate-US-style-License-Plate-with-GAN
+# Generate-US-style-License-Plate-with-GAN
 
 ## Abstract
 
