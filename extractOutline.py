@@ -22,15 +22,4 @@ def extract(data_path, write_path):
 
 
 if __name__ == "__main__":
-    # parser = argparse.ArgumentParser()
-    # parser.add_argument(
-    #     "--A_path",
-    #     default="./GeneratedPlateSamples/",
-    #     help="path where you wan to store the outline image",
-    # )
-    # parser.add_argument(
-    #     "--B_path", default="./ExtractedOutlines/", help="path of the original image"
-    # )
-    # args = parser.parse_args()
-
     extract("./LicensePlateDataset/", "./LicensePlateDatasetOutlines/")
