@@ -36,6 +36,24 @@ To produce our authentic-looking counterfeit license plates, we first needed to 
 
 ![Testing dataset generation block](https://github.com/NegarJM/Generate-US-style-License-Plate-with-GAN/assets/97193844/feae7f93-58e5-4d3e-8f02-f3b8777f5b0e)
 
+#### Extract Outline Script
+
+You can use the following Python script to extract outlines from license plate images:
+
+```
+python3 extractOutline.py
+```
+#### Make sure to have your license plate images in the appropriate directory before running this script.
+
+#### Combining Outline and Original Image
+
+To combine the outline and original image into one single image, you can run the following command:
+
+```
+python3 pix2pixModel/datasets/combine_A_and_B.py
+```
+This script will take the outline and original images as input and create a combined image suitable for training the Pix2Pix model.
+
 
 [1] Mingbo Cui, "License Plate Generation", https://github.com/MinboCui/license-plate-generation
 
