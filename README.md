@@ -6,7 +6,9 @@ Training efficient license plate detection models, applicable in different machi
 
 ## License Plate Synthesis with Generative Adversarial Networks
 
-### Data Collection and Preprocessing
+### Data
+
+We utilize a comprehensive repository accessible at [https://github.com/SamarthSingh2001/LicencePI](https://github.com/SamarthSingh2001/LicencePI) to augment our dataset. In addition to providing an extensive assortment of license plate images, this repository also comprises rear-view photographs of vehicles, which is an essential component within the context of our endeavor. The repository's substantial collection of high-quality images functions as a highly beneficial asset, furnishing a robust groundwork for our efforts in training and evaluating models.
 
 To generate synthetic license plates, we adopted the approach suggested in an open-source project [1]. The methodology involves creating a dataset of hundreds of randomly generated US-style license plates. By generating hundreds of random letters and digits in the license plates' style (There are different styles over used different states of the United States), we obtained a diverse set of outlines representing the characteristic features of US license plates which can be inputted into the pix2pix model to generate our realistically fake plates.
 
