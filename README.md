@@ -58,7 +58,7 @@ This script will take the outline and original images as input and create a comb
 
 ### Generating synthetic License Plate Images
 
-To generate synthetic license plate images, you can use the provided `genPlate.py` script. Run the following command in your terminal:
+To generate synthetic license plate images, you can use the provided `GenerateSynthLicensePlate.py` script. Run the following command in your terminal:
 
 ```
 python3 GenerateSynthLicensePlate.py
